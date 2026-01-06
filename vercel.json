@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "app.py",
@@ -12,17 +13,3 @@
     }
   ]
 }
-```
-
-### **.env** (로컬 테스트용 - GitHub에 올리면 안됨!)
-```
-RESEND_API_KEY=여기에_Resend_키
-GOOGLE_SERVICE_ACCOUNT={"type":"service_account",...}
-```
-
-### **.gitignore** (중요!)
-```
-.env
-__pycache__/
-*.pyc
-venv/
